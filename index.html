@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- <link rel="stylesheet" type="text/css" href="css/Styles.css" /> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><link rel="stylesheet" type="text/css"
+ href="css\fontawesome-free-5.10.2-web\fontawesome-free-5.10.2-web\css\all.min.css" />
+</head>
+<title>Weight Converter</title>
+<style>
+body
+{
+margin-top: 70px;
+background-color: #eee;
+color: #000;
+}
+</style>
+<body>
+
+<h1></h1>
+<div class="container">
+<div class="row">
+<div class="col-md-6 offset-md-3">
+
+    <h1 class="display-4 text-center">Weight Converter</h1>
+        <form>
+            <div class="form-group">
+                <input id="LSBInput" 
+                type="number" 
+                class="form-control form-control-lg " 
+                placeholder="Enter Pounds..." >
+            </div>
+        </form>
+        <div id="output">
+            <div  class="card text-white bg-primary mb-3" >
+                <div class="card-body">
+                    <h4  class="card-title">Grams:</h4>
+                    <div id="gramsOutput">
+                         
+                    </div>
+                </div>
+            </div>
+       
+            <div class="card text-white bg-warning mb-3">
+                <div class="card-body">
+                    <h4  class="card-title">Kilograms:</h4>
+                    <div id="kgOutput">
+                         
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card text-white bg-success mb-3">
+                <div class="card-body">
+                    <h4 class="card-title">Ounces:</h4>
+                    <div id="ozOutput">
+                         
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+</div>
+
+</div>
+
+
+</div>
+
+<script  src="js/JS.js"></script>
+</body>
+</html>
